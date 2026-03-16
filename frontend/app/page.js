@@ -15,7 +15,7 @@ export default function Home() {
   const runAgent = async () => {
 
     const response = await fetch(
-      "https://literate-train-jjx4wvjx9gq5c5xrp-8000.app.github.dev/query",
+      "https://orbitscout-ai.onrender.com/query",
       {
         method: "POST",
         headers: {
@@ -33,7 +33,7 @@ export default function Home() {
   const loadReports = async () => {
 
     const response = await fetch(
-      "https://literate-train-jjx4wvjx9gq5c5xxrp-8000.app.github.dev/reports"
+      "https://orbitscout-ai.onrender.com/reports"
     );
 
     const data = await response.json();
